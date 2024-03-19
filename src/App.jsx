@@ -11,7 +11,7 @@ function App() {
       <div><NavBar></NavBar></div>
       <div><Banner></Banner></div>
       <div className='mx-8 md:mx-40 lg:mx-28 my-20'><FeaturedDest></FeaturedDest></div>
-      <div className='mx-28 my-20'><DealsOffers></DealsOffers></div>
+      <div className='mx-8 lg:mx-28 my-20'><DealsOffers></DealsOffers></div>
 
     </div>
   )
