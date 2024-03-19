@@ -5,8 +5,8 @@ import feature3 from "../../assets/feature-3.png";
 const FeaturedDest = () => {
     return (
         <div>
-            <h1 className="text-4xl font-semibold mb-10">Featured Destinations</h1>
-            <div className="grid grid-cols-3 gap-6">
+            <h1 className="text-4xl font-semibold mb-10 max-lg:text-center">Featured Destinations</h1>
+            <div className="grid grid-cols-1  lg:grid-cols-3  gap-6">
                 <div className="card bg-base-100 shadow-2xl">
                     <figure className="p-3">
                         <img src={feature1} alt="Shoes" className="rounded-xl" />
